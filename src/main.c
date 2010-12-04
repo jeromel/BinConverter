@@ -11,7 +11,7 @@ int	main(void) {
 	while ( scanf("%u", &num) ) {
 		binconverterRevert(num);
 		binconverter( num, binaire );
-		printf("(%u)b2 =  %s\tmp2(%u) = %u\tpbit(mp2(%u)) = %u\n", num, binaire, num, maxpow2(num), num, posbit(maxpow2(num)));
+		printf("(%u)b2 =  %s\tPuissance de 2 maximale (%u) = %u\tPosition du bit(Puissance de 2 maximale(%u)) = %u\n", num, binaire, num, maxpow2(num), num, posbit(maxpow2(num)));
 	}
 
 
